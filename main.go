@@ -23,4 +23,15 @@ func main() {
 	age := (rem3*70 + rem5*21 + rem7*15) % 105
 
 	fmt.Printf("Your age is %d; that's a good time to start programming!\n", age)
+
+	fmt.Println("Now I will prove to you that I can count to any number you want.")
+
+	var num int
+	fmt.Scanln(&num)
+
+	for i := 0; i <= num; i++ {
+		fmt.Printf("%d !\n", i)
+	}
+
+	fmt.Println("Completed, have a nice day!")
 }
